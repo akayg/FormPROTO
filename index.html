@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html>
+<h1 id="title">Survey Form</h1>
+<title>Survey Form</title>
+<div>
+<p id="description">
+  Give your valueable Feedback here! :)
+</p>
+<form id="survey-form">
+ <head>
+   <link rel="stylesheet" href="styles.css">
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+ </head>
+ <body>
+ 
+ 
+  <fieldset>
+    
+     <label id="name-label"> 
+       NAME:
+     </label>
+       <input 
+  required
+  id="name" 
+  type="text"
+  placeholder="Enter your name here"
+  >
+  
+  </input>
+  </fieldset>
+ 
+ 
+ <fieldset>
+  <label id="email-label">
+    EMAIL: </label> 
+  <input 
+  required
+  id="email" 
+  type="email"
+  placeholder="Enter your email here!">
+  </input>
+   
+  </fieldset>
+  
+  <fieldset>
+  AGE:<label id="number-label">
+   </label>
+      <input required id="number" 
+  type="number" 
+  min="18" 
+  max="100"
+  placeholder="Age"
+  >
+  </input>
 
+</fieldset>
+
+
+  <fieldset>
+  QUALIFICATION: <select required id="dropdown">
+<option disabled selected value>Qualification!</option>
+<option>matric(10th)</option>
+<option>Diploma</option>
+<option>Under-graduate</option>
+<option>Post-graduate</option>
+<option>Other</option>
+    </select>
+    </fieldset>
+    
+   
+   <fieldset >
+     <label >
+     <input value="rd1" type="radio" name="p"></input>
+     male</label>
+
+
+    <label>
+      <input value="rd2" type="radio"  name="p"></input>
+      female</label>
+    
+    <label>
+    <input value="rd3" type="radio" name="p" >Prefer not to say</input>
+    </label>
+
+</fieldset>
+
+<fieldset>
+  Language <input value="c" type="checkbox" >Hindi</input>
+  <input value="c" type="checkbox" >English</input>
+  <input value="c" type="checkbox" >Sanskrit</input>
+  <input value="c" type="checkbox" >other</input>
+  </fieldset>
+
+  <fieldset>
+    COMPLAIN OR FEEDBACKS HERE
+    <textarea required placeholder="write here!">
+
+    </textarea>
+    </fieldset>
+<fieldset class="f12">
+<button id="submit" type="submit" value="Submit" class="button">SUBMIT!</button>
+</fieldset>
+  </form>
+
+</div>
+</body>
+  </html>
