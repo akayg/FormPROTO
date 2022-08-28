@@ -1,0 +1,43 @@
+
+h1{
+  font-family:fantasy;
+  text-align:center;
+}
+p,h1,body{
+font-size:29px;
+  font-family:cursive;
+  color:white;
+}
+body{
+  
+  background-image:url(https://avante.biz/wp-content/uploads/Peaceful-Images-Wallpapers/Peaceful-Images-Wallpapers-001.jpg);
+  
+}
+
+div
+  {
+  background:url(https://wallpapercave.com/wp/Om3yOQJ.jpg);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  
+}
+
+.button {
+  background-color:rgb(225,0,0); /* Green */
+  border: none;
+  color: white;
+  padding: 12px;
+  
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius:50%;
+  
+  
+}
+.f12{
+  text-align:center;
+}
